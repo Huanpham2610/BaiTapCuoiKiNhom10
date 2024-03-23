@@ -89,7 +89,7 @@ a {
 .btn {
     display: inline-block;
     color: #fff;
-    background-color: #ff5039;
+    background-color: #0664e8;
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 20px;
@@ -344,6 +344,16 @@ small {
 
 /* --responsive for menu-- */
 @media only screen and (max-width: 800px) {
+
+    .column-2 h2 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .btn:hover {
+        background-color: #9c9595;
+        color: #fff;
+    }
 
     nav ul {
         position: fixed;
