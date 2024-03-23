@@ -297,6 +297,11 @@ small {
     margin-bottom: 20px;
 }
 
+.footer-column-2 .img-footer {
+    width: 100px;
+    height: 100px;
+}
+
 .footer-column-3,
 .footer-column-4 {
     flex-basis: 12%;
